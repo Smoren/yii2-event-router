@@ -1,0 +1,34 @@
+{
+  "name": "smoren/yii2-event-router",
+  "description": "Event router implementation for Yii2",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "extension", "event", "eventbus", "router"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Smoren",
+      "email": "ofigate@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "yiisoft/yii2": "~2.0.0",
+    "smoren/event-router": "^0.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smoren\\Yii2\\EventRouter\\": "src"
+    }
+  },
+  "config": {
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
